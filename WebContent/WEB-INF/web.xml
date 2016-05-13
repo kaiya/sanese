@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>GoogleApi</display-name>
+   <servlet>
+    <description></description>
+    <display-name>ReceiveMsg</display-name>
+    <servlet-name>ReceiveMsg</servlet-name>
+    <servlet-class>com.kyawn.googlecse.servlet.ReceiveMsg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReceiveMsg</servlet-name>
+    <url-pattern>/wechat/receiveMsg.do</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
